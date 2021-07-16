@@ -1,3 +1,5 @@
+"""2.5D Ray Casting and rendering engine by Adam Watney"""
+
 import pygame
 import pygame_menu
 import math
@@ -16,7 +18,7 @@ width, height = 1000, 600       # dimensions of program output window
 walk_speed = 1.5
 rotation_speed = 3.5
 screen = pygame.display.set_mode((width, height))
-pygame.display.set_caption("2D Ray Casting/Rendering by Adam Watney for Arkwright Engineering Scholarship")
+pygame.display.set_caption("2.5D Ray Casting/Rendering by Adam Watney")
 
 background = (0, 0, 0)
 is_high_contrast = False
